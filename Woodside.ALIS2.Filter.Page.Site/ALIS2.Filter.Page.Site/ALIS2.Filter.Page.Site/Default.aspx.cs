@@ -32,7 +32,7 @@ namespace ALIS2.Filter.Page.Site
         {
             if (!Page.IsPostBack)
             {
-				//string KeyListRequested1 = "Manual Valve Register1";
+				//string KeyListRequested1 = "Manual Valve Register1";test;
 				KeyListRequested =  Request.QueryString["KeyList"];  //set keylist parameter ;
                 AssetRequested =  Request.QueryString["Asset"];      //set asset parameter;
 
